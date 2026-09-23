@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'NostalgicGukhanbakOchungiWriterKim';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2607161334@griunxhangeulochungikim-regular/griunxhangeulochungikim-regular/GriunXHangeulOCHUNGIKIM-Regular.woff2')
+        format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+body * {
+    font-family: 'NostalgicGukhanbakOchungiWriterKim';
+    font-size: 50px;
+}
+
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+}
